@@ -6,8 +6,6 @@ export async function signup(
   password: string
 ) {
   // should add zod validation here
-
-  console.log(email);
   const user = await client.user.create({
     data: {
       email: email,
