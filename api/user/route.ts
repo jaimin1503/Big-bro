@@ -9,10 +9,3 @@ export async function POST(req: NextRequest) {
     password: body.password,
   });
 }
-
-export async function GET(req: NextRequest) {
-  return NextResponse.json({
-    email: "jaimin@gmail.com",
-    username: "jaimin",
-  });
-}
